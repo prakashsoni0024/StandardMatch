@@ -1,0 +1,4641 @@
+{
+  "total": 30,
+  "passed": 21,
+  "results": [
+    {
+      "id": "Q001",
+      "query": "The supplied drinking water shall conform to requirements for physical, chemical and microbiological quality.",
+      "expected_standards": [
+        "IS 10500:2012"
+      ],
+      "predicted_standards": [
+        "IS 10500:2012",
+        "IS 456:2000",
+        "IS 383:2016"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 10500:2012",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": true,
+      "raw_response": {
+        "input_type": "text",
+        "query": "The supplied drinking water shall conform to requirements for physical, chemical and microbiological quality.",
+        "recommendations": [
+          {
+            "standard_number": "IS 10500:2012",
+            "title": "Drinking Water - Specification",
+            "category": "Water & Sanitation",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.7143,
+              "semantic": 0.6219,
+              "lexical": 1.0,
+              "fuzzy": 0.4222,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Physical and chemical parameter testing",
+              "Microbiological examination"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 3025 (Parts 1 to 64)",
+                "IS 1622"
+              ],
+              "test_methods": [
+                "Physical and chemical parameter testing",
+                "Microbiological examination"
+              ],
+              "certifications": [
+                "ISI Mark (Mandatory for packaged drinking water)"
+              ],
+              "supersedes": [
+                "IS 10500:1991"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.7143). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 456:2000",
+            "title": "Plain and Reinforced Concrete - Code of Practice",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.3559,
+              "semantic": 0.1865,
+              "lexical": 0.2838,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength test",
+              "Slump test for workability"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 383",
+                "IS 516",
+                "IS 1199",
+                "IS 2386"
+              ],
+              "test_methods": [
+                "Compressive strength test",
+                "Slump test for workability"
+              ],
+              "certifications": [
+                "Conformity assessment under BIS Certification Scheme"
+              ],
+              "supersedes": [
+                "IS 456:1978"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.3559). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 383:2016",
+            "title": "Coarse and Fine Aggregates for Concrete - Specification",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.3269,
+              "semantic": 0.1371,
+              "lexical": 0.2569,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Particle size distribution",
+              "Specific gravity",
+              "Water absorption"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2386 (Parts 1 to 8)"
+              ],
+              "test_methods": [
+                "Particle size distribution",
+                "Specific gravity",
+                "Water absorption"
+              ],
+              "certifications": [
+                "BIS Certification Mark"
+              ],
+              "supersedes": [
+                "IS 383:1970"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.3269). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q002",
+      "query": "Potable water for the municipal supply shall meet the specified limits for contaminants and microbiological parameters.",
+      "expected_standards": [
+        "IS 10500:2012"
+      ],
+      "predicted_standards": [
+        "IS 10500:2012",
+        "IS 15658:2006",
+        "IS 456:2000"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 10500:2012",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": true,
+      "raw_response": {
+        "input_type": "text",
+        "query": "Potable water for the municipal supply shall meet the specified limits for contaminants and microbiological parameters.",
+        "recommendations": [
+          {
+            "standard_number": "IS 10500:2012",
+            "title": "Drinking Water - Specification",
+            "category": "Water & Sanitation",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.599,
+              "semantic": 0.5664,
+              "lexical": 1.0,
+              "fuzzy": 0.3206,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Physical and chemical parameter testing",
+              "Microbiological examination"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 3025 (Parts 1 to 64)",
+                "IS 1622"
+              ],
+              "test_methods": [
+                "Physical and chemical parameter testing",
+                "Microbiological examination"
+              ],
+              "certifications": [
+                "ISI Mark (Mandatory for packaged drinking water)"
+              ],
+              "supersedes": [
+                "IS 10500:1991"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.599). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 15658:2006",
+            "title": "Precast Concrete Blocks for Paving - Specification",
+            "category": "Roads & Pavement",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.3514,
+              "semantic": 0.192,
+              "lexical": 0.2559,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength",
+              "Water absorption test",
+              "Flexural strength"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 516",
+                "IS 1237"
+              ],
+              "test_methods": [
+                "Compressive strength",
+                "Water absorption test",
+                "Flexural strength"
+              ],
+              "certifications": [
+                "ISI Certification Mark"
+              ],
+              "supersedes": []
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.3514). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 456:2000",
+            "title": "Plain and Reinforced Concrete - Code of Practice",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.3424,
+              "semantic": 0.1581,
+              "lexical": 0.2812,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength test",
+              "Slump test for workability"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 383",
+                "IS 516",
+                "IS 1199",
+                "IS 2386"
+              ],
+              "test_methods": [
+                "Compressive strength test",
+                "Slump test for workability"
+              ],
+              "certifications": [
+                "Conformity assessment under BIS Certification Scheme"
+              ],
+              "supersedes": [
+                "IS 456:1978"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.3424). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q003",
+      "query": "Drinking water quality shall be assessed for chemical and microbiological parameters before distribution.",
+      "expected_standards": [
+        "IS 10500:2012"
+      ],
+      "predicted_standards": [
+        "IS 10500:2012",
+        "IS 456:2000",
+        "IS 383:2016"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 10500:2012",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": true,
+      "raw_response": {
+        "input_type": "text",
+        "query": "Drinking water quality shall be assessed for chemical and microbiological parameters before distribution.",
+        "recommendations": [
+          {
+            "standard_number": "IS 10500:2012",
+            "title": "Drinking Water - Specification",
+            "category": "Water & Sanitation",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.7857,
+              "semantic": 0.5882,
+              "lexical": 1.0,
+              "fuzzy": 0.855,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Physical and chemical parameter testing",
+              "Microbiological examination"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 3025 (Parts 1 to 64)",
+                "IS 1622"
+              ],
+              "test_methods": [
+                "Physical and chemical parameter testing",
+                "Microbiological examination"
+              ],
+              "certifications": [
+                "ISI Mark (Mandatory for packaged drinking water)"
+              ],
+              "supersedes": [
+                "IS 10500:1991"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.7857). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 456:2000",
+            "title": "Plain and Reinforced Concrete - Code of Practice",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.3432,
+              "semantic": 0.1471,
+              "lexical": 0.3042,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength test",
+              "Slump test for workability"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 383",
+                "IS 516",
+                "IS 1199",
+                "IS 2386"
+              ],
+              "test_methods": [
+                "Compressive strength test",
+                "Slump test for workability"
+              ],
+              "certifications": [
+                "Conformity assessment under BIS Certification Scheme"
+              ],
+              "supersedes": [
+                "IS 456:1978"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.3432). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 383:2016",
+            "title": "Coarse and Fine Aggregates for Concrete - Specification",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.3031,
+              "semantic": 0.1138,
+              "lexical": 0.2034,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Particle size distribution",
+              "Specific gravity",
+              "Water absorption"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2386 (Parts 1 to 8)"
+              ],
+              "test_methods": [
+                "Particle size distribution",
+                "Specific gravity",
+                "Water absorption"
+              ],
+              "certifications": [
+                "BIS Certification Mark"
+              ],
+              "supersedes": [
+                "IS 383:1970"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.3031). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q004",
+      "query": "Supply steel tubes suitable for water service together with compatible fittings as specified for the project.",
+      "expected_standards": [
+        "IS 1239 (Pt 1):2004"
+      ],
+      "predicted_standards": [
+        "IS 1239 (Part 1):2004",
+        "IS 10500:2012",
+        "IS 800:2007"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 1239 (Part 1):2004",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": false,
+      "raw_response": {
+        "input_type": "text",
+        "query": "Supply steel tubes suitable for water service together with compatible fittings as specified for the project.",
+        "recommendations": [
+          {
+            "standard_number": "IS 1239 (Part 1):2004",
+            "title": "Mild Steel Tubes, Tubulars and Other Wrought Steel Fittings",
+            "category": "Civil & Pipelines",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.7249,
+              "semantic": 0.6508,
+              "lexical": 1.0,
+              "fuzzy": 0.4105,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Hydrostatic test",
+              "Tensile test",
+              "Bend test"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 4711",
+                "IS 1387"
+              ],
+              "test_methods": [
+                "Hydrostatic test",
+                "Tensile test",
+                "Bend test"
+              ],
+              "certifications": [
+                "ISI Certification Mark"
+              ],
+              "supersedes": [
+                "IS 1239:1990"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.7249). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 10500:2012",
+            "title": "Drinking Water - Specification",
+            "category": "Water & Sanitation",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.4334,
+              "semantic": 0.3667,
+              "lexical": 0.6762,
+              "fuzzy": 0.347,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Physical and chemical parameter testing",
+              "Microbiological examination"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 3025 (Parts 1 to 64)",
+                "IS 1622"
+              ],
+              "test_methods": [
+                "Physical and chemical parameter testing",
+                "Microbiological examination"
+              ],
+              "certifications": [
+                "ISI Mark (Mandatory for packaged drinking water)"
+              ],
+              "supersedes": [
+                "IS 10500:1991"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.4334). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 800:2007",
+            "title": "General Construction in Steel - Code of Practice",
+            "category": "Structural Engineering",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.4082,
+              "semantic": 0.332,
+              "lexical": 0.6273,
+              "fuzzy": 0.36,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Non-destructive testing of welds",
+              "Load testing"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2062",
+                "IS 808"
+              ],
+              "test_methods": [
+                "Non-destructive testing of welds",
+                "Load testing"
+              ],
+              "certifications": [
+                "Compliance certification by licensed structural engineers"
+              ],
+              "supersedes": [
+                "IS 800:1984"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.4082). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q005",
+      "query": "The procurement requires steel pipes and tubular fittings for conveying water in the installation.",
+      "expected_standards": [
+        "IS 1239 (Pt 1):2004"
+      ],
+      "predicted_standards": [
+        "IS 1239 (Part 1):2004",
+        "IS 800:2007",
+        "IS 456:2000"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 1239 (Part 1):2004",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": false,
+      "raw_response": {
+        "input_type": "text",
+        "query": "The procurement requires steel pipes and tubular fittings for conveying water in the installation.",
+        "recommendations": [
+          {
+            "standard_number": "IS 1239 (Part 1):2004",
+            "title": "Mild Steel Tubes, Tubulars and Other Wrought Steel Fittings",
+            "category": "Civil & Pipelines",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.7053,
+              "semantic": 0.6059,
+              "lexical": 1.0,
+              "fuzzy": 0.4134,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Hydrostatic test",
+              "Tensile test",
+              "Bend test"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 4711",
+                "IS 1387"
+              ],
+              "test_methods": [
+                "Hydrostatic test",
+                "Tensile test",
+                "Bend test"
+              ],
+              "certifications": [
+                "ISI Certification Mark"
+              ],
+              "supersedes": [
+                "IS 1239:1990"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.7053). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 800:2007",
+            "title": "General Construction in Steel - Code of Practice",
+            "category": "Structural Engineering",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.5661,
+              "semantic": 0.3624,
+              "lexical": 0.8081,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Non-destructive testing of welds",
+              "Load testing"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2062",
+                "IS 808"
+              ],
+              "test_methods": [
+                "Non-destructive testing of welds",
+                "Load testing"
+              ],
+              "certifications": [
+                "Compliance certification by licensed structural engineers"
+              ],
+              "supersedes": [
+                "IS 800:1984"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.5661). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 456:2000",
+            "title": "Plain and Reinforced Concrete - Code of Practice",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.3606,
+              "semantic": 0.225,
+              "lexical": 0.2336,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength test",
+              "Slump test for workability"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 383",
+                "IS 516",
+                "IS 1199",
+                "IS 2386"
+              ],
+              "test_methods": [
+                "Compressive strength test",
+                "Slump test for workability"
+              ],
+              "certifications": [
+                "Conformity assessment under BIS Certification Scheme"
+              ],
+              "supersedes": [
+                "IS 456:1978"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.3606). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q006",
+      "query": "Provide compliant steel tubes for plumbing work, including the required fittings and dimensional quality.",
+      "expected_standards": [
+        "IS 1239 (Pt 1):2004"
+      ],
+      "predicted_standards": [
+        "IS 1239 (Part 1):2004",
+        "IS 800:2007",
+        "IS 1786:2008"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 1239 (Part 1):2004",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": false,
+      "raw_response": {
+        "input_type": "text",
+        "query": "Provide compliant steel tubes for plumbing work, including the required fittings and dimensional quality.",
+        "recommendations": [
+          {
+            "standard_number": "IS 1239 (Part 1):2004",
+            "title": "Mild Steel Tubes, Tubulars and Other Wrought Steel Fittings",
+            "category": "Civil & Pipelines",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.711,
+              "semantic": 0.624,
+              "lexical": 1.0,
+              "fuzzy": 0.4011,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Hydrostatic test",
+              "Tensile test",
+              "Bend test"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 4711",
+                "IS 1387"
+              ],
+              "test_methods": [
+                "Hydrostatic test",
+                "Tensile test",
+                "Bend test"
+              ],
+              "certifications": [
+                "ISI Certification Mark"
+              ],
+              "supersedes": [
+                "IS 1239:1990"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.711). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 800:2007",
+            "title": "General Construction in Steel - Code of Practice",
+            "category": "Structural Engineering",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.4413,
+              "semantic": 0.3763,
+              "lexical": 0.704,
+              "fuzzy": 0.33,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Non-destructive testing of welds",
+              "Load testing"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2062",
+                "IS 808"
+              ],
+              "test_methods": [
+                "Non-destructive testing of welds",
+                "Load testing"
+              ],
+              "certifications": [
+                "Compliance certification by licensed structural engineers"
+              ],
+              "supersedes": [
+                "IS 800:1984"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.4413). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 1786:2008",
+            "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.3744,
+              "semantic": 0.3639,
+              "lexical": 0.4232,
+              "fuzzy": 0.3739,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Tensile test",
+              "Re-bend test",
+              "Elongation measurement"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 1608",
+                "IS 1599"
+              ],
+              "test_methods": [
+                "Tensile test",
+                "Re-bend test",
+                "Elongation measurement"
+              ],
+              "certifications": [
+                "ISI Mark (Compulsory Certification)"
+              ],
+              "supersedes": [
+                "IS 1786:1985"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.3744). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q007",
+      "query": "Design and construction of plain and reinforced concrete shall follow the applicable code of practice.",
+      "expected_standards": [
+        "IS 456:2000"
+      ],
+      "predicted_standards": [
+        "IS 456:2000",
+        "IS 800:2007",
+        "IS 383:2016"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 456:2000",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": true,
+      "raw_response": {
+        "input_type": "text",
+        "query": "Design and construction of plain and reinforced concrete shall follow the applicable code of practice.",
+        "recommendations": [
+          {
+            "standard_number": "IS 456:2000",
+            "title": "Plain and Reinforced Concrete - Code of Practice",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.8438,
+              "semantic": 0.7174,
+              "lexical": 1.0,
+              "fuzzy": 0.855,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength test",
+              "Slump test for workability"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 383",
+                "IS 516",
+                "IS 1199",
+                "IS 2386"
+              ],
+              "test_methods": [
+                "Compressive strength test",
+                "Slump test for workability"
+              ],
+              "certifications": [
+                "Conformity assessment under BIS Certification Scheme"
+              ],
+              "supersedes": [
+                "IS 456:1978"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.8438). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 800:2007",
+            "title": "General Construction in Steel - Code of Practice",
+            "category": "Structural Engineering",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.6088,
+              "semantic": 0.5583,
+              "lexical": 0.6262,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Non-destructive testing of welds",
+              "Load testing"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2062",
+                "IS 808"
+              ],
+              "test_methods": [
+                "Non-destructive testing of welds",
+                "Load testing"
+              ],
+              "certifications": [
+                "Compliance certification by licensed structural engineers"
+              ],
+              "supersedes": [
+                "IS 800:1984"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.6088). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 383:2016",
+            "title": "Coarse and Fine Aggregates for Concrete - Specification",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.4104,
+              "semantic": 0.3832,
+              "lexical": 0.1479,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Particle size distribution",
+              "Specific gravity",
+              "Water absorption"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2386 (Parts 1 to 8)"
+              ],
+              "test_methods": [
+                "Particle size distribution",
+                "Specific gravity",
+                "Water absorption"
+              ],
+              "certifications": [
+                "BIS Certification Mark"
+              ],
+              "supersedes": [
+                "IS 383:1970"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.4104). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q008",
+      "query": "The contractor shall execute reinforced concrete structural members in accordance with the Indian code for plain and reinforced concrete.",
+      "expected_standards": [
+        "IS 456:2000"
+      ],
+      "predicted_standards": [
+        "IS 456:2000",
+        "IS 800:2007",
+        "IS 1786:2008"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 456:2000",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": true,
+      "raw_response": {
+        "input_type": "text",
+        "query": "The contractor shall execute reinforced concrete structural members in accordance with the Indian code for plain and reinforced concrete.",
+        "recommendations": [
+          {
+            "standard_number": "IS 456:2000",
+            "title": "Plain and Reinforced Concrete - Code of Practice",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.7644,
+              "semantic": 0.5409,
+              "lexical": 1.0,
+              "fuzzy": 0.855,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength test",
+              "Slump test for workability"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 383",
+                "IS 516",
+                "IS 1199",
+                "IS 2386"
+              ],
+              "test_methods": [
+                "Compressive strength test",
+                "Slump test for workability"
+              ],
+              "certifications": [
+                "Conformity assessment under BIS Certification Scheme"
+              ],
+              "supersedes": [
+                "IS 456:1978"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.7644). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 800:2007",
+            "title": "General Construction in Steel - Code of Practice",
+            "category": "Structural Engineering",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.6138,
+              "semantic": 0.5052,
+              "lexical": 0.7417,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Non-destructive testing of welds",
+              "Load testing"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2062",
+                "IS 808"
+              ],
+              "test_methods": [
+                "Non-destructive testing of welds",
+                "Load testing"
+              ],
+              "certifications": [
+                "Compliance certification by licensed structural engineers"
+              ],
+              "supersedes": [
+                "IS 800:1984"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.6138). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 1786:2008",
+            "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.491,
+              "semantic": 0.4015,
+              "lexical": 0.4373,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Tensile test",
+              "Re-bend test",
+              "Elongation measurement"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 1608",
+                "IS 1599"
+              ],
+              "test_methods": [
+                "Tensile test",
+                "Re-bend test",
+                "Elongation measurement"
+              ],
+              "certifications": [
+                "ISI Mark (Compulsory Certification)"
+              ],
+              "supersedes": [
+                "IS 1786:1985"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.491). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q009",
+      "query": "Reinforced concrete design and construction is required for the proposed building structure.",
+      "expected_standards": [
+        "IS 456:2000"
+      ],
+      "predicted_standards": [
+        "IS 456:2000",
+        "IS 800:2007",
+        "IS 1786:2008"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 456:2000",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": true,
+      "raw_response": {
+        "input_type": "text",
+        "query": "Reinforced concrete design and construction is required for the proposed building structure.",
+        "recommendations": [
+          {
+            "standard_number": "IS 456:2000",
+            "title": "Plain and Reinforced Concrete - Code of Practice",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.8015,
+              "semantic": 0.6234,
+              "lexical": 1.0,
+              "fuzzy": 0.855,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength test",
+              "Slump test for workability"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 383",
+                "IS 516",
+                "IS 1199",
+                "IS 2386"
+              ],
+              "test_methods": [
+                "Compressive strength test",
+                "Slump test for workability"
+              ],
+              "certifications": [
+                "Conformity assessment under BIS Certification Scheme"
+              ],
+              "supersedes": [
+                "IS 456:1978"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.8015). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 800:2007",
+            "title": "General Construction in Steel - Code of Practice",
+            "category": "Structural Engineering",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.5217,
+              "semantic": 0.5869,
+              "lexical": 0.5735,
+              "fuzzy": 0.4211,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Non-destructive testing of welds",
+              "Load testing"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2062",
+                "IS 808"
+              ],
+              "test_methods": [
+                "Non-destructive testing of welds",
+                "Load testing"
+              ],
+              "certifications": [
+                "Compliance certification by licensed structural engineers"
+              ],
+              "supersedes": [
+                "IS 800:1984"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.5217). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 1786:2008",
+            "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.392,
+              "semantic": 0.3898,
+              "lexical": 0.4248,
+              "fuzzy": 0.4017,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Tensile test",
+              "Re-bend test",
+              "Elongation measurement"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 1608",
+                "IS 1599"
+              ],
+              "test_methods": [
+                "Tensile test",
+                "Re-bend test",
+                "Elongation measurement"
+              ],
+              "certifications": [
+                "ISI Mark (Compulsory Certification)"
+              ],
+              "supersedes": [
+                "IS 1786:1985"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.392). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q010",
+      "query": "Coarse and fine aggregates used in concrete shall comply with the applicable specification.",
+      "expected_standards": [
+        "IS 383:2016"
+      ],
+      "predicted_standards": [
+        "IS 383:2016",
+        "IS 456:2000",
+        "IS 800:2007"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 383:2016",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": true,
+      "raw_response": {
+        "input_type": "text",
+        "query": "Coarse and fine aggregates used in concrete shall comply with the applicable specification.",
+        "recommendations": [
+          {
+            "standard_number": "IS 383:2016",
+            "title": "Coarse and Fine Aggregates for Concrete - Specification",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.8401,
+              "semantic": 0.8248,
+              "lexical": 1.0,
+              "fuzzy": 0.5949,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Particle size distribution",
+              "Specific gravity",
+              "Water absorption"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2386 (Parts 1 to 8)"
+              ],
+              "test_methods": [
+                "Particle size distribution",
+                "Specific gravity",
+                "Water absorption"
+              ],
+              "certifications": [
+                "BIS Certification Mark"
+              ],
+              "supersedes": [
+                "IS 383:1970"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.8401). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 456:2000",
+            "title": "Plain and Reinforced Concrete - Code of Practice",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.5161,
+              "semantic": 0.4562,
+              "lexical": 0.1591,
+              "fuzzy": 0.855,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength test",
+              "Slump test for workability"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 383",
+                "IS 516",
+                "IS 1199",
+                "IS 2386"
+              ],
+              "test_methods": [
+                "Compressive strength test",
+                "Slump test for workability"
+              ],
+              "certifications": [
+                "Conformity assessment under BIS Certification Scheme"
+              ],
+              "supersedes": [
+                "IS 456:1978"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.5161). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 800:2007",
+            "title": "General Construction in Steel - Code of Practice",
+            "category": "Structural Engineering",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.3965,
+              "semantic": 0.3028,
+              "lexical": 0.2369,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Non-destructive testing of welds",
+              "Load testing"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2062",
+                "IS 808"
+              ],
+              "test_methods": [
+                "Non-destructive testing of welds",
+                "Load testing"
+              ],
+              "certifications": [
+                "Compliance certification by licensed structural engineers"
+              ],
+              "supersedes": [
+                "IS 800:1984"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.3965). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q011",
+      "query": "The concrete mix shall use suitable coarse aggregate and fine aggregate meeting the specified quality requirements.",
+      "expected_standards": [
+        "IS 383:2016"
+      ],
+      "predicted_standards": [
+        "IS 383:2016",
+        "IS 456:2000",
+        "IS 269:2015"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 383:2016",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": true,
+      "raw_response": {
+        "input_type": "text",
+        "query": "The concrete mix shall use suitable coarse aggregate and fine aggregate meeting the specified quality requirements.",
+        "recommendations": [
+          {
+            "standard_number": "IS 383:2016",
+            "title": "Coarse and Fine Aggregates for Concrete - Specification",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.8909,
+              "semantic": 0.8221,
+              "lexical": 1.0,
+              "fuzzy": 0.855,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Particle size distribution",
+              "Specific gravity",
+              "Water absorption"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2386 (Parts 1 to 8)"
+              ],
+              "test_methods": [
+                "Particle size distribution",
+                "Specific gravity",
+                "Water absorption"
+              ],
+              "certifications": [
+                "BIS Certification Mark"
+              ],
+              "supersedes": [
+                "IS 383:1970"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.8909). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 456:2000",
+            "title": "Plain and Reinforced Concrete - Code of Practice",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.4695,
+              "semantic": 0.3917,
+              "lexical": 0.0891,
+              "fuzzy": 0.855,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength test",
+              "Slump test for workability"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 383",
+                "IS 516",
+                "IS 1199",
+                "IS 2386"
+              ],
+              "test_methods": [
+                "Compressive strength test",
+                "Slump test for workability"
+              ],
+              "certifications": [
+                "Conformity assessment under BIS Certification Scheme"
+              ],
+              "supersedes": [
+                "IS 456:1978"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.4695). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 269:2015",
+            "title": "Ordinary Portland Cement - Specification",
+            "category": "Construction Materials",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.3047,
+              "semantic": 0.4322,
+              "lexical": 0.0299,
+              "fuzzy": 0.3635,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Setting time test",
+              "Compressive strength test",
+              "Soundness test"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 4031",
+                "IS 650"
+              ],
+              "test_methods": [
+                "Setting time test",
+                "Compressive strength test",
+                "Soundness test"
+              ],
+              "certifications": [
+                "ISI Mark (Compulsory Certification Scheme-I)"
+              ],
+              "supersedes": [
+                "IS 269:1989",
+                "IS 8112:1989",
+                "IS 12269:1987"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.3047). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q012",
+      "query": "Aggregate materials for structural concrete shall be selected and supplied according to the relevant Indian specification.",
+      "expected_standards": [
+        "IS 383:2016"
+      ],
+      "predicted_standards": [
+        "IS 383:2016",
+        "IS 456:2000",
+        "IS 800:2007"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 383:2016",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": true,
+      "raw_response": {
+        "input_type": "text",
+        "query": "Aggregate materials for structural concrete shall be selected and supplied according to the relevant Indian specification.",
+        "recommendations": [
+          {
+            "standard_number": "IS 383:2016",
+            "title": "Coarse and Fine Aggregates for Concrete - Specification",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.7541,
+              "semantic": 0.6736,
+              "lexical": 1.0,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Particle size distribution",
+              "Specific gravity",
+              "Water absorption"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2386 (Parts 1 to 8)"
+              ],
+              "test_methods": [
+                "Particle size distribution",
+                "Specific gravity",
+                "Water absorption"
+              ],
+              "certifications": [
+                "BIS Certification Mark"
+              ],
+              "supersedes": [
+                "IS 383:1970"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.7541). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 456:2000",
+            "title": "Plain and Reinforced Concrete - Code of Practice",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.6302,
+              "semantic": 0.4598,
+              "lexical": 0.6092,
+              "fuzzy": 0.855,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength test",
+              "Slump test for workability"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 383",
+                "IS 516",
+                "IS 1199",
+                "IS 2386"
+              ],
+              "test_methods": [
+                "Compressive strength test",
+                "Slump test for workability"
+              ],
+              "certifications": [
+                "Conformity assessment under BIS Certification Scheme"
+              ],
+              "supersedes": [
+                "IS 456:1978"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.6302). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 800:2007",
+            "title": "General Construction in Steel - Code of Practice",
+            "category": "Structural Engineering",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.4999,
+              "semantic": 0.404,
+              "lexical": 0.8638,
+              "fuzzy": 0.361,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Non-destructive testing of welds",
+              "Load testing"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2062",
+                "IS 808"
+              ],
+              "test_methods": [
+                "Non-destructive testing of welds",
+                "Load testing"
+              ],
+              "certifications": [
+                "Compliance certification by licensed structural engineers"
+              ],
+              "supersedes": [
+                "IS 800:1984"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.4999). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q013",
+      "query": "High strength deformed steel bars and wires for concrete reinforcement shall conform to the specified Indian Standard.",
+      "expected_standards": [
+        "IS 1786:2008"
+      ],
+      "predicted_standards": [
+        "IS 1786:2008",
+        "IS 456:2000",
+        "IS 800:2007"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 1786:2008",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": true,
+      "raw_response": {
+        "input_type": "text",
+        "query": "High strength deformed steel bars and wires for concrete reinforcement shall conform to the specified Indian Standard.",
+        "recommendations": [
+          {
+            "standard_number": "IS 1786:2008",
+            "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.8245,
+              "semantic": 0.7759,
+              "lexical": 1.0,
+              "fuzzy": 0.6269,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Tensile test",
+              "Re-bend test",
+              "Elongation measurement"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 1608",
+                "IS 1599"
+              ],
+              "test_methods": [
+                "Tensile test",
+                "Re-bend test",
+                "Elongation measurement"
+              ],
+              "certifications": [
+                "ISI Mark (Compulsory Certification)"
+              ],
+              "supersedes": [
+                "IS 1786:1985"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.8245). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 456:2000",
+            "title": "Plain and Reinforced Concrete - Code of Practice",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.492,
+              "semantic": 0.4357,
+              "lexical": 0.0997,
+              "fuzzy": 0.855,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength test",
+              "Slump test for workability"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 383",
+                "IS 516",
+                "IS 1199",
+                "IS 2386"
+              ],
+              "test_methods": [
+                "Compressive strength test",
+                "Slump test for workability"
+              ],
+              "certifications": [
+                "Conformity assessment under BIS Certification Scheme"
+              ],
+              "supersedes": [
+                "IS 456:1978"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.492). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 800:2007",
+            "title": "General Construction in Steel - Code of Practice",
+            "category": "Structural Engineering",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.3901,
+              "semantic": 0.5072,
+              "lexical": 0.2539,
+              "fuzzy": 0.342,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Non-destructive testing of welds",
+              "Load testing"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2062",
+                "IS 808"
+              ],
+              "test_methods": [
+                "Non-destructive testing of welds",
+                "Load testing"
+              ],
+              "certifications": [
+                "Compliance certification by licensed structural engineers"
+              ],
+              "supersedes": [
+                "IS 800:1984"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.3901). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q014",
+      "query": "The project requires TMT reinforcement bars with specified strength grades for reinforced concrete work.",
+      "expected_standards": [
+        "IS 1786:2008"
+      ],
+      "predicted_standards": [
+        "IS 1786:2008",
+        "IS 456:2000",
+        "IS 383:2016"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 1786:2008",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": true,
+      "raw_response": {
+        "input_type": "text",
+        "query": "The project requires TMT reinforcement bars with specified strength grades for reinforced concrete work.",
+        "recommendations": [
+          {
+            "standard_number": "IS 1786:2008",
+            "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.7741,
+              "semantic": 0.7167,
+              "lexical": 1.0,
+              "fuzzy": 0.508,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Tensile test",
+              "Re-bend test",
+              "Elongation measurement"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 1608",
+                "IS 1599"
+              ],
+              "test_methods": [
+                "Tensile test",
+                "Re-bend test",
+                "Elongation measurement"
+              ],
+              "certifications": [
+                "ISI Mark (Compulsory Certification)"
+              ],
+              "supersedes": [
+                "IS 1786:1985"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.7741). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 456:2000",
+            "title": "Plain and Reinforced Concrete - Code of Practice",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.4677,
+              "semantic": 0.4976,
+              "lexical": 0.2187,
+              "fuzzy": 0.4455,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength test",
+              "Slump test for workability"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 383",
+                "IS 516",
+                "IS 1199",
+                "IS 2386"
+              ],
+              "test_methods": [
+                "Compressive strength test",
+                "Slump test for workability"
+              ],
+              "certifications": [
+                "Conformity assessment under BIS Certification Scheme"
+              ],
+              "supersedes": [
+                "IS 456:1978"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.4677). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 383:2016",
+            "title": "Coarse and Fine Aggregates for Concrete - Specification",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.4024,
+              "semantic": 0.3958,
+              "lexical": 0.0932,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Particle size distribution",
+              "Specific gravity",
+              "Water absorption"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2386 (Parts 1 to 8)"
+              ],
+              "test_methods": [
+                "Particle size distribution",
+                "Specific gravity",
+                "Water absorption"
+              ],
+              "certifications": [
+                "BIS Certification Mark"
+              ],
+              "supersedes": [
+                "IS 383:1970"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.4024). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q015",
+      "query": "Steel reinforcement bars used in the RCC structure shall meet the required mechanical and material specifications.",
+      "expected_standards": [
+        "IS 1786:2008"
+      ],
+      "predicted_standards": [
+        "IS 1786:2008",
+        "IS 800:2007",
+        "IS 456:2000"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 1786:2008",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": true,
+      "raw_response": {
+        "input_type": "text",
+        "query": "Steel reinforcement bars used in the RCC structure shall meet the required mechanical and material specifications.",
+        "recommendations": [
+          {
+            "standard_number": "IS 1786:2008",
+            "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.7022,
+              "semantic": 0.577,
+              "lexical": 1.0,
+              "fuzzy": 0.4627,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Tensile test",
+              "Re-bend test",
+              "Elongation measurement"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 1608",
+                "IS 1599"
+              ],
+              "test_methods": [
+                "Tensile test",
+                "Re-bend test",
+                "Elongation measurement"
+              ],
+              "certifications": [
+                "ISI Mark (Compulsory Certification)"
+              ],
+              "supersedes": [
+                "IS 1786:1985"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.7022). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 800:2007",
+            "title": "General Construction in Steel - Code of Practice",
+            "category": "Structural Engineering",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.607,
+              "semantic": 0.5343,
+              "lexical": 0.6625,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Non-destructive testing of welds",
+              "Load testing"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2062",
+                "IS 808"
+              ],
+              "test_methods": [
+                "Non-destructive testing of welds",
+                "Load testing"
+              ],
+              "certifications": [
+                "Compliance certification by licensed structural engineers"
+              ],
+              "supersedes": [
+                "IS 800:1984"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.607). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 456:2000",
+            "title": "Plain and Reinforced Concrete - Code of Practice",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.4501,
+              "semantic": 0.492,
+              "lexical": 0.1109,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength test",
+              "Slump test for workability"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 383",
+                "IS 516",
+                "IS 1199",
+                "IS 2386"
+              ],
+              "test_methods": [
+                "Compressive strength test",
+                "Slump test for workability"
+              ],
+              "certifications": [
+                "Conformity assessment under BIS Certification Scheme"
+              ],
+              "supersedes": [
+                "IS 456:1978"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.4501). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q016",
+      "query": "The design and construction of structural steelwork shall follow the applicable Indian code for general construction in steel.",
+      "expected_standards": [
+        "IS 800:2007"
+      ],
+      "predicted_standards": [
+        "IS 800:2007",
+        "IS 456:2000",
+        "IS 1239 (Part 1):2004"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 800:2007",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": true,
+      "raw_response": {
+        "input_type": "text",
+        "query": "The design and construction of structural steelwork shall follow the applicable Indian code for general construction in steel.",
+        "recommendations": [
+          {
+            "standard_number": "IS 800:2007",
+            "title": "General Construction in Steel - Code of Practice",
+            "category": "Structural Engineering",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.8739,
+              "semantic": 0.7842,
+              "lexical": 1.0,
+              "fuzzy": 0.855,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Non-destructive testing of welds",
+              "Load testing"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2062",
+                "IS 808"
+              ],
+              "test_methods": [
+                "Non-destructive testing of welds",
+                "Load testing"
+              ],
+              "certifications": [
+                "Compliance certification by licensed structural engineers"
+              ],
+              "supersedes": [
+                "IS 800:1984"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.8739). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 456:2000",
+            "title": "Plain and Reinforced Concrete - Code of Practice",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.6411,
+              "semantic": 0.4587,
+              "lexical": 0.6548,
+              "fuzzy": 0.855,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength test",
+              "Slump test for workability"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 383",
+                "IS 516",
+                "IS 1199",
+                "IS 2386"
+              ],
+              "test_methods": [
+                "Compressive strength test",
+                "Slump test for workability"
+              ],
+              "certifications": [
+                "Conformity assessment under BIS Certification Scheme"
+              ],
+              "supersedes": [
+                "IS 456:1978"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.6411). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 1239 (Part 1):2004",
+            "title": "Mild Steel Tubes, Tubulars and Other Wrought Steel Fittings",
+            "category": "Civil & Pipelines",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.4153,
+              "semantic": 0.4074,
+              "lexical": 0.1236,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Hydrostatic test",
+              "Tensile test",
+              "Bend test"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 4711",
+                "IS 1387"
+              ],
+              "test_methods": [
+                "Hydrostatic test",
+                "Tensile test",
+                "Bend test"
+              ],
+              "certifications": [
+                "ISI Certification Mark"
+              ],
+              "supersedes": [
+                "IS 1239:1990"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.4153). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q017",
+      "query": "Structural steel members and connections shall be designed for the proposed building in accordance with Indian steel construction practice.",
+      "expected_standards": [
+        "IS 800:2007"
+      ],
+      "predicted_standards": [
+        "IS 800:2007",
+        "IS 456:2000",
+        "IS 1239 (Part 1):2004"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 800:2007",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": true,
+      "raw_response": {
+        "input_type": "text",
+        "query": "Structural steel members and connections shall be designed for the proposed building in accordance with Indian steel construction practice.",
+        "recommendations": [
+          {
+            "standard_number": "IS 800:2007",
+            "title": "General Construction in Steel - Code of Practice",
+            "category": "Structural Engineering",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.8381,
+              "semantic": 0.7046,
+              "lexical": 1.0,
+              "fuzzy": 0.855,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Non-destructive testing of welds",
+              "Load testing"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2062",
+                "IS 808"
+              ],
+              "test_methods": [
+                "Non-destructive testing of welds",
+                "Load testing"
+              ],
+              "certifications": [
+                "Compliance certification by licensed structural engineers"
+              ],
+              "supersedes": [
+                "IS 800:1984"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.8381). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 456:2000",
+            "title": "Plain and Reinforced Concrete - Code of Practice",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.575,
+              "semantic": 0.4425,
+              "lexical": 0.4196,
+              "fuzzy": 0.855,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength test",
+              "Slump test for workability"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 383",
+                "IS 516",
+                "IS 1199",
+                "IS 2386"
+              ],
+              "test_methods": [
+                "Compressive strength test",
+                "Slump test for workability"
+              ],
+              "certifications": [
+                "Conformity assessment under BIS Certification Scheme"
+              ],
+              "supersedes": [
+                "IS 456:1978"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.575). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 1239 (Part 1):2004",
+            "title": "Mild Steel Tubes, Tubulars and Other Wrought Steel Fittings",
+            "category": "Civil & Pipelines",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.5427,
+              "semantic": 0.4343,
+              "lexical": 0.5852,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Hydrostatic test",
+              "Tensile test",
+              "Bend test"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 4711",
+                "IS 1387"
+              ],
+              "test_methods": [
+                "Hydrostatic test",
+                "Tensile test",
+                "Bend test"
+              ],
+              "certifications": [
+                "ISI Certification Mark"
+              ],
+              "supersedes": [
+                "IS 1239:1990"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.5427). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q018",
+      "query": "Ordinary Portland cement supplied for the works shall conform to the applicable Indian specification.",
+      "expected_standards": [
+        "IS 269:2015"
+      ],
+      "predicted_standards": [
+        "IS 269:2015",
+        "IS 383:2016",
+        "IS 15658:2006"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 269:2015",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": true,
+      "raw_response": {
+        "input_type": "text",
+        "query": "Ordinary Portland cement supplied for the works shall conform to the applicable Indian specification.",
+        "recommendations": [
+          {
+            "standard_number": "IS 269:2015",
+            "title": "Ordinary Portland Cement - Specification",
+            "category": "Construction Materials",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.7983,
+              "semantic": 0.6162,
+              "lexical": 1.0,
+              "fuzzy": 0.855,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Setting time test",
+              "Compressive strength test",
+              "Soundness test"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 4031",
+                "IS 650"
+              ],
+              "test_methods": [
+                "Setting time test",
+                "Compressive strength test",
+                "Soundness test"
+              ],
+              "certifications": [
+                "ISI Mark (Compulsory Certification Scheme-I)"
+              ],
+              "supersedes": [
+                "IS 269:1989",
+                "IS 8112:1989",
+                "IS 12269:1987"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.7983). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 383:2016",
+            "title": "Coarse and Fine Aggregates for Concrete - Specification",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.4552,
+              "semantic": 0.4487,
+              "lexical": 0.2093,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Particle size distribution",
+              "Specific gravity",
+              "Water absorption"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2386 (Parts 1 to 8)"
+              ],
+              "test_methods": [
+                "Particle size distribution",
+                "Specific gravity",
+                "Water absorption"
+              ],
+              "certifications": [
+                "BIS Certification Mark"
+              ],
+              "supersedes": [
+                "IS 383:1970"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.4552). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 15658:2006",
+            "title": "Precast Concrete Blocks for Paving - Specification",
+            "category": "Roads & Pavement",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.3979,
+              "semantic": 0.3947,
+              "lexical": 0.0769,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength",
+              "Water absorption test",
+              "Flexural strength"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 516",
+                "IS 1237"
+              ],
+              "test_methods": [
+                "Compressive strength",
+                "Water absorption test",
+                "Flexural strength"
+              ],
+              "certifications": [
+                "ISI Certification Mark"
+              ],
+              "supersedes": []
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.3979). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q019",
+      "query": "The concrete works shall use compliant ordinary Portland cement of the required grade and quality.",
+      "expected_standards": [
+        "IS 269:2015"
+      ],
+      "predicted_standards": [
+        "IS 269:2015",
+        "IS 456:2000",
+        "IS 800:2007"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 269:2015",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": true,
+      "raw_response": {
+        "input_type": "text",
+        "query": "The concrete works shall use compliant ordinary Portland cement of the required grade and quality.",
+        "recommendations": [
+          {
+            "standard_number": "IS 269:2015",
+            "title": "Ordinary Portland Cement - Specification",
+            "category": "Construction Materials",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.808,
+              "semantic": 0.6379,
+              "lexical": 1.0,
+              "fuzzy": 0.855,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Setting time test",
+              "Compressive strength test",
+              "Soundness test"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 4031",
+                "IS 650"
+              ],
+              "test_methods": [
+                "Setting time test",
+                "Compressive strength test",
+                "Soundness test"
+              ],
+              "certifications": [
+                "ISI Mark (Compulsory Certification Scheme-I)"
+              ],
+              "supersedes": [
+                "IS 269:1989",
+                "IS 8112:1989",
+                "IS 12269:1987"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.808). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 456:2000",
+            "title": "Plain and Reinforced Concrete - Code of Practice",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.535,
+              "semantic": 0.4936,
+              "lexical": 0.1675,
+              "fuzzy": 0.855,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength test",
+              "Slump test for workability"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 383",
+                "IS 516",
+                "IS 1199",
+                "IS 2386"
+              ],
+              "test_methods": [
+                "Compressive strength test",
+                "Slump test for workability"
+              ],
+              "certifications": [
+                "Conformity assessment under BIS Certification Scheme"
+              ],
+              "supersedes": [
+                "IS 456:1978"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.535). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 800:2007",
+            "title": "General Construction in Steel - Code of Practice",
+            "category": "Structural Engineering",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.4572,
+              "semantic": 0.3228,
+              "lexical": 0.4436,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Non-destructive testing of welds",
+              "Load testing"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2062",
+                "IS 808"
+              ],
+              "test_methods": [
+                "Non-destructive testing of welds",
+                "Load testing"
+              ],
+              "certifications": [
+                "Compliance certification by licensed structural engineers"
+              ],
+              "supersedes": [
+                "IS 800:1984"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.4572). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q020",
+      "query": "Concrete paving blocks supplied for pedestrian and roadway paving shall conform to the relevant Indian specification.",
+      "expected_standards": [
+        "IS 15658:2006"
+      ],
+      "predicted_standards": [
+        "IS 15658:2006",
+        "IS 456:2000",
+        "IS 383:2016"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 15658:2006",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": true,
+      "raw_response": {
+        "input_type": "text",
+        "query": "Concrete paving blocks supplied for pedestrian and roadway paving shall conform to the relevant Indian specification.",
+        "recommendations": [
+          {
+            "standard_number": "IS 15658:2006",
+            "title": "Precast Concrete Blocks for Paving - Specification",
+            "category": "Roads & Pavement",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.796,
+              "semantic": 0.6112,
+              "lexical": 1.0,
+              "fuzzy": 0.855,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength",
+              "Water absorption test",
+              "Flexural strength"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 516",
+                "IS 1237"
+              ],
+              "test_methods": [
+                "Compressive strength",
+                "Water absorption test",
+                "Flexural strength"
+              ],
+              "certifications": [
+                "ISI Certification Mark"
+              ],
+              "supersedes": []
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.796). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 456:2000",
+            "title": "Plain and Reinforced Concrete - Code of Practice",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.4835,
+              "semantic": 0.3951,
+              "lexical": 0.1387,
+              "fuzzy": 0.855,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength test",
+              "Slump test for workability"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 383",
+                "IS 516",
+                "IS 1199",
+                "IS 2386"
+              ],
+              "test_methods": [
+                "Compressive strength test",
+                "Slump test for workability"
+              ],
+              "certifications": [
+                "Conformity assessment under BIS Certification Scheme"
+              ],
+              "supersedes": [
+                "IS 456:1978"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.4835). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 383:2016",
+            "title": "Coarse and Fine Aggregates for Concrete - Specification",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.4263,
+              "semantic": 0.4168,
+              "lexical": 0.151,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Particle size distribution",
+              "Specific gravity",
+              "Water absorption"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2386 (Parts 1 to 8)"
+              ],
+              "test_methods": [
+                "Particle size distribution",
+                "Specific gravity",
+                "Water absorption"
+              ],
+              "certifications": [
+                "BIS Certification Mark"
+              ],
+              "supersedes": [
+                "IS 383:1970"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.4263). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q021",
+      "query": "PVC insulated wires and cables shall be supplied for the electrical installation according to the applicable Indian specification.",
+      "expected_standards": [
+        "IS 694:2010"
+      ],
+      "predicted_standards": [
+        "IS 694:2010",
+        "IS 1786:2008",
+        "IS 15658:2006"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 694:2010",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": true,
+      "raw_response": {
+        "input_type": "text",
+        "query": "PVC insulated wires and cables shall be supplied for the electrical installation according to the applicable Indian specification.",
+        "recommendations": [
+          {
+            "standard_number": "IS 694:2010",
+            "title": "Polyvinyl Chloride Insulated Wires and Cables for Working Voltages up to 1100 Volts",
+            "category": "Electrical Engineering",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.6634,
+              "semantic": 0.5186,
+              "lexical": 1.0,
+              "fuzzy": 0.4,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Conductor resistance test",
+              "High voltage test",
+              "Insulation resistance test"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 8130",
+                "IS 10810"
+              ],
+              "test_methods": [
+                "Conductor resistance test",
+                "High voltage test",
+                "Insulation resistance test"
+              ],
+              "certifications": [
+                "ISI Mark (Compulsory CRS / Scheme-I)"
+              ],
+              "supersedes": [
+                "IS 694:1990"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.6634). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 1786:2008",
+            "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.3585,
+              "semantic": 0.2365,
+              "lexical": 0.2044,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Tensile test",
+              "Re-bend test",
+              "Elongation measurement"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 1608",
+                "IS 1599"
+              ],
+              "test_methods": [
+                "Tensile test",
+                "Re-bend test",
+                "Elongation measurement"
+              ],
+              "certifications": [
+                "ISI Mark (Compulsory Certification)"
+              ],
+              "supersedes": [
+                "IS 1786:1985"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.3585). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 15658:2006",
+            "title": "Precast Concrete Blocks for Paving - Specification",
+            "category": "Roads & Pavement",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.282,
+              "semantic": 0.13,
+              "lexical": 0.0902,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength",
+              "Water absorption test",
+              "Flexural strength"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 516",
+                "IS 1237"
+              ],
+              "test_methods": [
+                "Compressive strength",
+                "Water absorption test",
+                "Flexural strength"
+              ],
+              "certifications": [
+                "ISI Certification Mark"
+              ],
+              "supersedes": []
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.282). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q022",
+      "query": "The electrical contractor shall provide PVC insulated cables suitable for the specified installation and voltage requirements.",
+      "expected_standards": [
+        "IS 694:2010"
+      ],
+      "predicted_standards": [
+        "IS 694:2010",
+        "IS 1786:2008",
+        "IS 15658:2006"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 694:2010",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": true,
+      "raw_response": {
+        "input_type": "text",
+        "query": "The electrical contractor shall provide PVC insulated cables suitable for the specified installation and voltage requirements.",
+        "recommendations": [
+          {
+            "standard_number": "IS 694:2010",
+            "title": "Polyvinyl Chloride Insulated Wires and Cables for Working Voltages up to 1100 Volts",
+            "category": "Electrical Engineering",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.7137,
+              "semantic": 0.6231,
+              "lexical": 1.0,
+              "fuzzy": 0.4163,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Conductor resistance test",
+              "High voltage test",
+              "Insulation resistance test"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 8130",
+                "IS 10810"
+              ],
+              "test_methods": [
+                "Conductor resistance test",
+                "High voltage test",
+                "Insulation resistance test"
+              ],
+              "certifications": [
+                "ISI Mark (Compulsory CRS / Scheme-I)"
+              ],
+              "supersedes": [
+                "IS 694:1990"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.7137). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 1786:2008",
+            "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.3318,
+              "semantic": 0.2401,
+              "lexical": 0.0911,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Tensile test",
+              "Re-bend test",
+              "Elongation measurement"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 1608",
+                "IS 1599"
+              ],
+              "test_methods": [
+                "Tensile test",
+                "Re-bend test",
+                "Elongation measurement"
+              ],
+              "certifications": [
+                "ISI Mark (Compulsory Certification)"
+              ],
+              "supersedes": [
+                "IS 1786:1985"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.3318). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 15658:2006",
+            "title": "Precast Concrete Blocks for Paving - Specification",
+            "category": "Roads & Pavement",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.3146,
+              "semantic": 0.1957,
+              "lexical": 0.1022,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength",
+              "Water absorption test",
+              "Flexural strength"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 516",
+                "IS 1237"
+              ],
+              "test_methods": [
+                "Compressive strength",
+                "Water absorption test",
+                "Flexural strength"
+              ],
+              "certifications": [
+                "ISI Certification Mark"
+              ],
+              "supersedes": []
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.3146). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q023",
+      "query": "Household electrical appliances supplied under this procurement shall comply with the applicable safety requirements.",
+      "expected_standards": [
+        "IS 302-1:2008"
+      ],
+      "predicted_standards": [
+        "IS 302-1:2008",
+        "IS 800:2007",
+        "IS 694:2010"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 302-1:2008",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": true,
+      "raw_response": {
+        "input_type": "text",
+        "query": "Household electrical appliances supplied under this procurement shall comply with the applicable safety requirements.",
+        "recommendations": [
+          {
+            "standard_number": "IS 302-1:2008",
+            "title": "Safety of Household and Similar Electrical Appliances - Part 1: General Requirements",
+            "category": "Electrical & Safety",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.761,
+              "semantic": 0.6815,
+              "lexical": 1.0,
+              "fuzzy": 0.5214,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Leakage current test",
+              "Electric strength test",
+              "Earth continuity test"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 5133",
+                "IS 10118"
+              ],
+              "test_methods": [
+                "Leakage current test",
+                "Electric strength test",
+                "Earth continuity test"
+              ],
+              "certifications": [
+                "BIS Compulsory Registration Scheme (CRS)"
+              ],
+              "supersedes": [
+                "IS 302-1:1992"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.761). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 800:2007",
+            "title": "General Construction in Steel - Code of Practice",
+            "category": "Structural Engineering",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.2642,
+              "semantic": 0.2877,
+              "lexical": 0.167,
+              "fuzzy": 0.315,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Non-destructive testing of welds",
+              "Load testing"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2062",
+                "IS 808"
+              ],
+              "test_methods": [
+                "Non-destructive testing of welds",
+                "Load testing"
+              ],
+              "certifications": [
+                "Compliance certification by licensed structural engineers"
+              ],
+              "supersedes": [
+                "IS 800:1984"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.2642). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 694:2010",
+            "title": "Polyvinyl Chloride Insulated Wires and Cables for Working Voltages up to 1100 Volts",
+            "category": "Electrical Engineering",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.2563,
+              "semantic": 0.2949,
+              "lexical": 0.1025,
+              "fuzzy": 0.3396,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Conductor resistance test",
+              "High voltage test",
+              "Insulation resistance test"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 8130",
+                "IS 10810"
+              ],
+              "test_methods": [
+                "Conductor resistance test",
+                "High voltage test",
+                "Insulation resistance test"
+              ],
+              "certifications": [
+                "ISI Mark (Compulsory CRS / Scheme-I)"
+              ],
+              "supersedes": [
+                "IS 694:1990"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.2563). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q024",
+      "query": "Reinforced concrete shall be designed and constructed using compliant coarse and fine aggregates and high strength deformed reinforcement bars.",
+      "expected_standards": [
+        "IS 1786:2008",
+        "IS 456:2000",
+        "IS 383:2016"
+      ],
+      "predicted_standards": [
+        "IS 1786:2008",
+        "IS 383:2016",
+        "IS 456:2000"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 1786:2008",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": true,
+      "raw_response": {
+        "input_type": "text",
+        "query": "Reinforced concrete shall be designed and constructed using compliant coarse and fine aggregates and high strength deformed reinforcement bars.",
+        "recommendations": [
+          {
+            "standard_number": "IS 1786:2008",
+            "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.8109,
+              "semantic": 0.6441,
+              "lexical": 1.0,
+              "fuzzy": 0.855,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Tensile test",
+              "Re-bend test",
+              "Elongation measurement"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 1608",
+                "IS 1599"
+              ],
+              "test_methods": [
+                "Tensile test",
+                "Re-bend test",
+                "Elongation measurement"
+              ],
+              "certifications": [
+                "ISI Mark (Compulsory Certification)"
+              ],
+              "supersedes": [
+                "IS 1786:1985"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.8109). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 383:2016",
+            "title": "Coarse and Fine Aggregates for Concrete - Specification",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.7619,
+              "semantic": 0.5668,
+              "lexical": 0.9434,
+              "fuzzy": 0.855,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Particle size distribution",
+              "Specific gravity",
+              "Water absorption"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2386 (Parts 1 to 8)"
+              ],
+              "test_methods": [
+                "Particle size distribution",
+                "Specific gravity",
+                "Water absorption"
+              ],
+              "certifications": [
+                "BIS Certification Mark"
+              ],
+              "supersedes": [
+                "IS 383:1970"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.7619). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 456:2000",
+            "title": "Plain and Reinforced Concrete - Code of Practice",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.6017,
+              "semantic": 0.5361,
+              "lexical": 0.3578,
+              "fuzzy": 0.855,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength test",
+              "Slump test for workability"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 383",
+                "IS 516",
+                "IS 1199",
+                "IS 2386"
+              ],
+              "test_methods": [
+                "Compressive strength test",
+                "Slump test for workability"
+              ],
+              "certifications": [
+                "Conformity assessment under BIS Certification Scheme"
+              ],
+              "supersedes": [
+                "IS 456:1978"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.6017). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q025",
+      "query": "Good quality construction materials shall be used for the project.",
+      "expected_standards": [],
+      "predicted_standards": [
+        "IS 800:2007",
+        "IS 456:2000",
+        "IS 1786:2008"
+      ],
+      "expected_decision": "REVIEW_RECOMMENDED",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 800:2007",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": false,
+      "raw_response": {
+        "input_type": "text",
+        "query": "Good quality construction materials shall be used for the project.",
+        "recommendations": [
+          {
+            "standard_number": "IS 800:2007",
+            "title": "General Construction in Steel - Code of Practice",
+            "category": "Structural Engineering",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.5955,
+              "semantic": 0.5037,
+              "lexical": 1.0,
+              "fuzzy": 0.4444,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Non-destructive testing of welds",
+              "Load testing"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2062",
+                "IS 808"
+              ],
+              "test_methods": [
+                "Non-destructive testing of welds",
+                "Load testing"
+              ],
+              "certifications": [
+                "Compliance certification by licensed structural engineers"
+              ],
+              "supersedes": [
+                "IS 800:1984"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.5955). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 456:2000",
+            "title": "Plain and Reinforced Concrete - Code of Practice",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.4811,
+              "semantic": 0.3828,
+              "lexical": 0.5813,
+              "fuzzy": 0.3175,
+              "scope_match": 1.0,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength test",
+              "Slump test for workability"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 383",
+                "IS 516",
+                "IS 1199",
+                "IS 2386"
+              ],
+              "test_methods": [
+                "Compressive strength test",
+                "Slump test for workability"
+              ],
+              "certifications": [
+                "Conformity assessment under BIS Certification Scheme"
+              ],
+              "supersedes": [
+                "IS 456:1978"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.4811). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 1786:2008",
+            "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.3377,
+              "semantic": 0.3669,
+              "lexical": 0.2699,
+              "fuzzy": 0.3758,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Tensile test",
+              "Re-bend test",
+              "Elongation measurement"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 1608",
+                "IS 1599"
+              ],
+              "test_methods": [
+                "Tensile test",
+                "Re-bend test",
+                "Elongation measurement"
+              ],
+              "certifications": [
+                "ISI Mark (Compulsory Certification)"
+              ],
+              "supersedes": [
+                "IS 1786:1985"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.3377). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q026",
+      "query": "Suitable water system materials shall be provided as required.",
+      "expected_standards": [],
+      "predicted_standards": [
+        "IS 10500:2012",
+        "IS 456:2000",
+        "IS 1239 (Part 1):2004"
+      ],
+      "expected_decision": "REVIEW_RECOMMENDED",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 10500:2012",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": false,
+      "raw_response": {
+        "input_type": "text",
+        "query": "Suitable water system materials shall be provided as required.",
+        "recommendations": [
+          {
+            "standard_number": "IS 10500:2012",
+            "title": "Drinking Water - Specification",
+            "category": "Water & Sanitation",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.5751,
+              "semantic": 0.5362,
+              "lexical": 1.0,
+              "fuzzy": 0.2689,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Physical and chemical parameter testing",
+              "Microbiological examination"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 3025 (Parts 1 to 64)",
+                "IS 1622"
+              ],
+              "test_methods": [
+                "Physical and chemical parameter testing",
+                "Microbiological examination"
+              ],
+              "certifications": [
+                "ISI Mark (Mandatory for packaged drinking water)"
+              ],
+              "supersedes": [
+                "IS 10500:1991"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.5751). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 456:2000",
+            "title": "Plain and Reinforced Concrete - Code of Practice",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.369,
+              "semantic": 0.3383,
+              "lexical": 0.4846,
+              "fuzzy": 0.3279,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength test",
+              "Slump test for workability"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 383",
+                "IS 516",
+                "IS 1199",
+                "IS 2386"
+              ],
+              "test_methods": [
+                "Compressive strength test",
+                "Slump test for workability"
+              ],
+              "certifications": [
+                "Conformity assessment under BIS Certification Scheme"
+              ],
+              "supersedes": [
+                "IS 456:1978"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.369). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 1239 (Part 1):2004",
+            "title": "Mild Steel Tubes, Tubulars and Other Wrought Steel Fittings",
+            "category": "Civil & Pipelines",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.3518,
+              "semantic": 0.3262,
+              "lexical": 0.454,
+              "fuzzy": 0.3077,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Hydrostatic test",
+              "Tensile test",
+              "Bend test"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 4711",
+                "IS 1387"
+              ],
+              "test_methods": [
+                "Hydrostatic test",
+                "Tensile test",
+                "Bend test"
+              ],
+              "certifications": [
+                "ISI Certification Mark"
+              ],
+              "supersedes": [
+                "IS 1239:1990"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.3518). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q027",
+      "query": "High quality electrical equipment is required for the installation.",
+      "expected_standards": [],
+      "predicted_standards": [
+        "IS 302-1:2008",
+        "IS 1786:2008",
+        "IS 800:2007"
+      ],
+      "expected_decision": "REVIEW_RECOMMENDED",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "top_match": "IS 302-1:2008",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": false,
+      "raw_response": {
+        "input_type": "text",
+        "query": "High quality electrical equipment is required for the installation.",
+        "recommendations": [
+          {
+            "standard_number": "IS 302-1:2008",
+            "title": "Safety of Household and Similar Electrical Appliances - Part 1: General Requirements",
+            "category": "Electrical & Safety",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.5142,
+              "semantic": 0.3535,
+              "lexical": 1.0,
+              "fuzzy": 0.3758,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Leakage current test",
+              "Electric strength test",
+              "Earth continuity test"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 5133",
+                "IS 10118"
+              ],
+              "test_methods": [
+                "Leakage current test",
+                "Electric strength test",
+                "Earth continuity test"
+              ],
+              "certifications": [
+                "BIS Compulsory Registration Scheme (CRS)"
+              ],
+              "supersedes": [
+                "IS 302-1:1992"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.5142). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 1786:2008",
+            "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.4429,
+              "semantic": 0.2105,
+              "lexical": 0.942,
+              "fuzzy": 0.4133,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Tensile test",
+              "Re-bend test",
+              "Elongation measurement"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 1608",
+                "IS 1599"
+              ],
+              "test_methods": [
+                "Tensile test",
+                "Re-bend test",
+                "Elongation measurement"
+              ],
+              "certifications": [
+                "ISI Mark (Compulsory Certification)"
+              ],
+              "supersedes": [
+                "IS 1786:1985"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.4429). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 800:2007",
+            "title": "General Construction in Steel - Code of Practice",
+            "category": "Structural Engineering",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.4285,
+              "semantic": 0.2331,
+              "lexical": 0.8847,
+              "fuzzy": 0.3622,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Non-destructive testing of welds",
+              "Load testing"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2062",
+                "IS 808"
+              ],
+              "test_methods": [
+                "Non-destructive testing of welds",
+                "Load testing"
+              ],
+              "certifications": [
+                "Compliance certification by licensed structural engineers"
+              ],
+              "supersedes": [
+                "IS 800:1984"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.4285). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q028",
+      "query": "Quantum computing processor telemetry firmware shall support cryogenic qubit control.",
+      "expected_standards": [],
+      "predicted_standards": [
+        "IS 1786:2008",
+        "IS 302-1:2008",
+        "IS 15658:2006"
+      ],
+      "expected_decision": "INSUFFICIENT_EVIDENCE",
+      "actual_decision": "REVIEW_RECOMMENDED",
+      "top_match": "IS 1786:2008",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": false,
+      "raw_response": {
+        "input_type": "text",
+        "query": "Quantum computing processor telemetry firmware shall support cryogenic qubit control.",
+        "recommendations": [
+          {
+            "standard_number": "IS 1786:2008",
+            "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.1404,
+              "semantic": 0.0866,
+              "lexical": 0.0,
+              "fuzzy": 0.3571,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Tensile test",
+              "Re-bend test",
+              "Elongation measurement"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 1608",
+                "IS 1599"
+              ],
+              "test_methods": [
+                "Tensile test",
+                "Re-bend test",
+                "Elongation measurement"
+              ],
+              "certifications": [
+                "ISI Mark (Compulsory Certification)"
+              ],
+              "supersedes": [
+                "IS 1786:1985"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.1404). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 302-1:2008",
+            "title": "Safety of Household and Similar Electrical Appliances - Part 1: General Requirements",
+            "category": "Electrical & Safety",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.1225,
+              "semantic": 0.055,
+              "lexical": 0.0,
+              "fuzzy": 0.3388,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Leakage current test",
+              "Electric strength test",
+              "Earth continuity test"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 5133",
+                "IS 10118"
+              ],
+              "test_methods": [
+                "Leakage current test",
+                "Electric strength test",
+                "Earth continuity test"
+              ],
+              "certifications": [
+                "BIS Compulsory Registration Scheme (CRS)"
+              ],
+              "supersedes": [
+                "IS 302-1:1992"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.1225). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 15658:2006",
+            "title": "Precast Concrete Blocks for Paving - Specification",
+            "category": "Roads & Pavement",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.1166,
+              "semantic": 0.0552,
+              "lexical": 0.0,
+              "fuzzy": 0.3087,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength",
+              "Water absorption test",
+              "Flexural strength"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 516",
+                "IS 1237"
+              ],
+              "test_methods": [
+                "Compressive strength",
+                "Water absorption test",
+                "Flexural strength"
+              ],
+              "certifications": [
+                "ISI Certification Mark"
+              ],
+              "supersedes": []
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.1166). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q029",
+      "query": "The procurement requires satellite navigation software for autonomous spacecraft orbital correction.",
+      "expected_standards": [],
+      "predicted_standards": [
+        "IS 800:2007",
+        "IS 15658:2006",
+        "IS 302-1:2008"
+      ],
+      "expected_decision": "INSUFFICIENT_EVIDENCE",
+      "actual_decision": "REVIEW_RECOMMENDED",
+      "top_match": "IS 800:2007",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": false,
+      "raw_response": {
+        "input_type": "text",
+        "query": "The procurement requires satellite navigation software for autonomous spacecraft orbital correction.",
+        "recommendations": [
+          {
+            "standard_number": "IS 800:2007",
+            "title": "General Construction in Steel - Code of Practice",
+            "category": "Structural Engineering",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.3566,
+              "semantic": 0.0056,
+              "lexical": 1.0,
+              "fuzzy": 0.3705,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Non-destructive testing of welds",
+              "Load testing"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2062",
+                "IS 808"
+              ],
+              "test_methods": [
+                "Non-destructive testing of welds",
+                "Load testing"
+              ],
+              "certifications": [
+                "Compliance certification by licensed structural engineers"
+              ],
+              "supersedes": [
+                "IS 800:1984"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.3566). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 15658:2006",
+            "title": "Precast Concrete Blocks for Paving - Specification",
+            "category": "Roads & Pavement",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.3027,
+              "semantic": 0.0569,
+              "lexical": 0.3046,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength",
+              "Water absorption test",
+              "Flexural strength"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 516",
+                "IS 1237"
+              ],
+              "test_methods": [
+                "Compressive strength",
+                "Water absorption test",
+                "Flexural strength"
+              ],
+              "certifications": [
+                "ISI Certification Mark"
+              ],
+              "supersedes": []
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.3027). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 302-1:2008",
+            "title": "Safety of Household and Similar Electrical Appliances - Part 1: General Requirements",
+            "category": "Electrical & Safety",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.1864,
+              "semantic": 0.0461,
+              "lexical": 0.2507,
+              "fuzzy": 0.3646,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Leakage current test",
+              "Electric strength test",
+              "Earth continuity test"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 5133",
+                "IS 10118"
+              ],
+              "test_methods": [
+                "Leakage current test",
+                "Electric strength test",
+                "Earth continuity test"
+              ],
+              "certifications": [
+                "BIS Compulsory Registration Scheme (CRS)"
+              ],
+              "supersedes": [
+                "IS 302-1:1992"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.1864). Scope alignment verified."
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q030",
+      "query": "Supply a distributed machine learning accelerator with tensor processing hardware and compiler runtime.",
+      "expected_standards": [],
+      "predicted_standards": [
+        "IS 10500:2012",
+        "IS 383:2016",
+        "IS 456:2000"
+      ],
+      "expected_decision": "INSUFFICIENT_EVIDENCE",
+      "actual_decision": "REVIEW_RECOMMENDED",
+      "top_match": "IS 10500:2012",
+      "match_types": [
+        "DIRECT_MATCH",
+        "DIRECT_MATCH",
+        "DIRECT_MATCH"
+      ],
+      "graph_derived": [],
+      "passed": false,
+      "raw_response": {
+        "input_type": "text",
+        "query": "Supply a distributed machine learning accelerator with tensor processing hardware and compiler runtime.",
+        "recommendations": [
+          {
+            "standard_number": "IS 10500:2012",
+            "title": "Drinking Water - Specification",
+            "category": "Water & Sanitation",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.3737,
+              "semantic": 0.0614,
+              "lexical": 1.0,
+              "fuzzy": 0.3303,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Physical and chemical parameter testing",
+              "Microbiological examination"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 3025 (Parts 1 to 64)",
+                "IS 1622"
+              ],
+              "test_methods": [
+                "Physical and chemical parameter testing",
+                "Microbiological examination"
+              ],
+              "certifications": [
+                "ISI Mark (Mandatory for packaged drinking water)"
+              ],
+              "supersedes": [
+                "IS 10500:1991"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.3737). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 383:2016",
+            "title": "Coarse and Fine Aggregates for Concrete - Specification",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.3009,
+              "semantic": 0.0925,
+              "lexical": 0.2331,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Particle size distribution",
+              "Specific gravity",
+              "Water absorption"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 2386 (Parts 1 to 8)"
+              ],
+              "test_methods": [
+                "Particle size distribution",
+                "Specific gravity",
+                "Water absorption"
+              ],
+              "certifications": [
+                "BIS Certification Mark"
+              ],
+              "supersedes": [
+                "IS 383:1970"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.3009). Scope alignment verified."
+          },
+          {
+            "standard_number": "IS 456:2000",
+            "title": "Plain and Reinforced Concrete - Code of Practice",
+            "category": "Construction & Infrastructure",
+            "status": "ACTIVE",
+            "hybrid_scores": {
+              "hybrid_score": 0.2598,
+              "semantic": 0.0036,
+              "lexical": 0.2286,
+              "fuzzy": 0.855,
+              "scope_match": 0.3,
+              "obsolescence_penalty": 0.0
+            },
+            "key_clauses": [
+              "Compressive strength test",
+              "Slump test for workability"
+            ],
+            "graph_relations": {
+              "normative_references": [
+                "IS 383",
+                "IS 516",
+                "IS 1199",
+                "IS 2386"
+              ],
+              "test_methods": [
+                "Compressive strength test",
+                "Slump test for workability"
+              ],
+              "certifications": [
+                "Conformity assessment under BIS Certification Scheme"
+              ],
+              "supersedes": [
+                "IS 456:1978"
+              ]
+            },
+            "warnings": [],
+            "provenance": {
+              "type": "BIS Official Published Catalogue Metadata",
+              "url_or_reference": "https://www.services.bis.gov.in/",
+              "retrieved_at": "2026-01-15"
+            },
+            "match_justification": "Matched via hybrid retrieval (Hybrid Score: 0.2598). Scope alignment verified."
+          }
+        ]
+      }
+    }
+  ]
+}

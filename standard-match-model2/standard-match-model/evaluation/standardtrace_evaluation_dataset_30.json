@@ -1,0 +1,402 @@
+{
+  "dataset_name": "StandardTrace AI — 30-case prototype evaluation dataset",
+  "purpose": "Evaluate the current SIH26108 prototype retrieval/recommendation pipeline.",
+  "case_count": 30,
+  "ground_truth_scope": "Constrained to the project's current curated knowledge base; this is not a legal or comprehensive BIS ground-truth dataset.",
+  "important_note": "For no-match cases, expected_standards=[] means no expected match in the current prototype knowledge base, not that no Indian Standard exists in reality.",
+  "source_basis": "Current project knowledge-base records supplied/reported by the user; standard metadata should be revalidated against authoritative BIS sources before being presented as official/current.",
+  "fields": {
+    "expected_standards": "Directly expected standards from the current prototype KB.",
+    "acceptable_graph_standards": "Potential graph-derived standards only where the current KB's relationship metadata supports them.",
+    "expected_decision": "Target decision state for evaluation."
+  },
+  "cases": [
+    {
+      "id": "Q001",
+      "query": "The supplied drinking water shall conform to requirements for physical, chemical and microbiological quality.",
+      "domain": "water",
+      "expected_standards": [
+        "IS 10500:2012"
+      ],
+      "acceptable_graph_standards": [
+        "IS 3025"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "direct_match"
+    },
+    {
+      "id": "Q002",
+      "query": "Potable water for the municipal supply shall meet the specified limits for contaminants and microbiological parameters.",
+      "domain": "water",
+      "expected_standards": [
+        "IS 10500:2012"
+      ],
+      "acceptable_graph_standards": [
+        "IS 3025"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "semantic_match"
+    },
+    {
+      "id": "Q003",
+      "query": "Drinking water quality shall be assessed for chemical and microbiological parameters before distribution.",
+      "domain": "water",
+      "expected_standards": [
+        "IS 10500:2012"
+      ],
+      "acceptable_graph_standards": [
+        "IS 3025"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "implicit_requirement"
+    },
+    {
+      "id": "Q004",
+      "query": "Supply steel tubes suitable for water service together with compatible fittings as specified for the project.",
+      "domain": "steel_tubes",
+      "expected_standards": [
+        "IS 1239 (Pt 1):2004"
+      ],
+      "acceptable_graph_standards": [
+        "IS 4711",
+        "IS 1387"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "direct_match"
+    },
+    {
+      "id": "Q005",
+      "query": "The procurement requires steel pipes and tubular fittings for conveying water in the installation.",
+      "domain": "steel_tubes",
+      "expected_standards": [
+        "IS 1239 (Pt 1):2004"
+      ],
+      "acceptable_graph_standards": [
+        "IS 4711",
+        "IS 1387"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "semantic_match"
+    },
+    {
+      "id": "Q006",
+      "query": "Provide compliant steel tubes for plumbing work, including the required fittings and dimensional quality.",
+      "domain": "steel_tubes",
+      "expected_standards": [
+        "IS 1239 (Pt 1):2004"
+      ],
+      "acceptable_graph_standards": [
+        "IS 4711",
+        "IS 1387"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "implicit_requirement"
+    },
+    {
+      "id": "Q007",
+      "query": "Design and construction of plain and reinforced concrete shall follow the applicable code of practice.",
+      "domain": "concrete",
+      "expected_standards": [
+        "IS 456:2000"
+      ],
+      "acceptable_graph_standards": [
+        "IS 383:2016",
+        "IS 516"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "direct_match"
+    },
+    {
+      "id": "Q008",
+      "query": "The contractor shall execute reinforced concrete structural members in accordance with the Indian code for plain and reinforced concrete.",
+      "domain": "concrete",
+      "expected_standards": [
+        "IS 456:2000"
+      ],
+      "acceptable_graph_standards": [
+        "IS 383:2016",
+        "IS 516"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "semantic_match"
+    },
+    {
+      "id": "Q009",
+      "query": "Reinforced concrete design and construction is required for the proposed building structure.",
+      "domain": "concrete",
+      "expected_standards": [
+        "IS 456:2000"
+      ],
+      "acceptable_graph_standards": [
+        "IS 383:2016",
+        "IS 516"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "implicit_requirement"
+    },
+    {
+      "id": "Q010",
+      "query": "Coarse and fine aggregates used in concrete shall comply with the applicable specification.",
+      "domain": "aggregates",
+      "expected_standards": [
+        "IS 383:2016"
+      ],
+      "acceptable_graph_standards": [
+        "IS 2386"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "direct_match"
+    },
+    {
+      "id": "Q011",
+      "query": "The concrete mix shall use suitable coarse aggregate and fine aggregate meeting the specified quality requirements.",
+      "domain": "aggregates",
+      "expected_standards": [
+        "IS 383:2016"
+      ],
+      "acceptable_graph_standards": [
+        "IS 2386"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "semantic_match"
+    },
+    {
+      "id": "Q012",
+      "query": "Aggregate materials for structural concrete shall be selected and supplied according to the relevant Indian specification.",
+      "domain": "aggregates",
+      "expected_standards": [
+        "IS 383:2016"
+      ],
+      "acceptable_graph_standards": [
+        "IS 2386"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "implicit_requirement"
+    },
+    {
+      "id": "Q013",
+      "query": "High strength deformed steel bars and wires for concrete reinforcement shall conform to the specified Indian Standard.",
+      "domain": "reinforcement",
+      "expected_standards": [
+        "IS 1786:2008"
+      ],
+      "acceptable_graph_standards": [
+        "IS 1608",
+        "IS 1599"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "direct_match"
+    },
+    {
+      "id": "Q014",
+      "query": "The project requires TMT reinforcement bars with specified strength grades for reinforced concrete work.",
+      "domain": "reinforcement",
+      "expected_standards": [
+        "IS 1786:2008"
+      ],
+      "acceptable_graph_standards": [
+        "IS 1608",
+        "IS 1599"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "semantic_match"
+    },
+    {
+      "id": "Q015",
+      "query": "Steel reinforcement bars used in the RCC structure shall meet the required mechanical and material specifications.",
+      "domain": "reinforcement",
+      "expected_standards": [
+        "IS 1786:2008"
+      ],
+      "acceptable_graph_standards": [
+        "IS 1608",
+        "IS 1599"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "implicit_requirement"
+    },
+    {
+      "id": "Q016",
+      "query": "The design and construction of structural steelwork shall follow the applicable Indian code for general construction in steel.",
+      "domain": "steel_construction",
+      "expected_standards": [
+        "IS 800:2007"
+      ],
+      "acceptable_graph_standards": [
+        "IS 2062",
+        "IS 808"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "direct_match"
+    },
+    {
+      "id": "Q017",
+      "query": "Structural steel members and connections shall be designed for the proposed building in accordance with Indian steel construction practice.",
+      "domain": "steel_construction",
+      "expected_standards": [
+        "IS 800:2007"
+      ],
+      "acceptable_graph_standards": [
+        "IS 2062",
+        "IS 808"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "semantic_match"
+    },
+    {
+      "id": "Q018",
+      "query": "Ordinary Portland cement supplied for the works shall conform to the applicable Indian specification.",
+      "domain": "cement",
+      "expected_standards": [
+        "IS 269:2015"
+      ],
+      "acceptable_graph_standards": [
+        "IS 4031",
+        "IS 650"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "direct_match"
+    },
+    {
+      "id": "Q019",
+      "query": "The concrete works shall use compliant ordinary Portland cement of the required grade and quality.",
+      "domain": "cement",
+      "expected_standards": [
+        "IS 269:2015"
+      ],
+      "acceptable_graph_standards": [
+        "IS 4031",
+        "IS 650"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "semantic_match"
+    },
+    {
+      "id": "Q020",
+      "query": "Concrete paving blocks supplied for pedestrian and roadway paving shall conform to the relevant Indian specification.",
+      "domain": "paving",
+      "expected_standards": [
+        "IS 15658:2006"
+      ],
+      "acceptable_graph_standards": [
+        "IS 516",
+        "IS 1237"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "direct_match"
+    },
+    {
+      "id": "Q021",
+      "query": "PVC insulated wires and cables shall be supplied for the electrical installation according to the applicable Indian specification.",
+      "domain": "electrical",
+      "expected_standards": [
+        "IS 694:2010"
+      ],
+      "acceptable_graph_standards": [
+        "IS 8130",
+        "IS 10810"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "direct_match"
+    },
+    {
+      "id": "Q022",
+      "query": "The electrical contractor shall provide PVC insulated cables suitable for the specified installation and voltage requirements.",
+      "domain": "electrical",
+      "expected_standards": [
+        "IS 694:2010"
+      ],
+      "acceptable_graph_standards": [
+        "IS 8130",
+        "IS 10810"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "semantic_match"
+    },
+    {
+      "id": "Q023",
+      "query": "Household electrical appliances supplied under this procurement shall comply with the applicable safety requirements.",
+      "domain": "household_appliance",
+      "expected_standards": [
+        "IS 302-1:2008"
+      ],
+      "acceptable_graph_standards": [
+        "IS 5133",
+        "IS 10118"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "direct_match"
+    },
+    {
+      "id": "Q024",
+      "query": "Reinforced concrete shall be designed and constructed using compliant coarse and fine aggregates and high strength deformed reinforcement bars.",
+      "domain": "construction",
+      "expected_standards": [
+        "IS 456:2000",
+        "IS 383:2016",
+        "IS 1786:2008"
+      ],
+      "acceptable_graph_standards": [
+        "IS 516",
+        "IS 1608",
+        "IS 1599"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "test_type": "multi_standard"
+    },
+    {
+      "id": "Q025",
+      "query": "Good quality construction materials shall be used for the project.",
+      "domain": "general",
+      "expected_standards": [],
+      "acceptable_graph_standards": [],
+      "expected_decision": "REVIEW_RECOMMENDED",
+      "test_type": "ambiguous"
+    },
+    {
+      "id": "Q026",
+      "query": "Suitable water system materials shall be provided as required.",
+      "domain": "general",
+      "expected_standards": [],
+      "acceptable_graph_standards": [],
+      "expected_decision": "REVIEW_RECOMMENDED",
+      "test_type": "ambiguous"
+    },
+    {
+      "id": "Q027",
+      "query": "High quality electrical equipment is required for the installation.",
+      "domain": "general",
+      "expected_standards": [],
+      "acceptable_graph_standards": [],
+      "expected_decision": "REVIEW_RECOMMENDED",
+      "test_type": "ambiguous"
+    },
+    {
+      "id": "Q028",
+      "query": "Quantum computing processor telemetry firmware shall support cryogenic qubit control.",
+      "domain": "computing",
+      "expected_standards": [],
+      "acceptable_graph_standards": [],
+      "expected_decision": "INSUFFICIENT_EVIDENCE",
+      "test_type": "no_match"
+    },
+    {
+      "id": "Q029",
+      "query": "The procurement requires satellite navigation software for autonomous spacecraft orbital correction.",
+      "domain": "aerospace_software",
+      "expected_standards": [],
+      "acceptable_graph_standards": [],
+      "expected_decision": "INSUFFICIENT_EVIDENCE",
+      "test_type": "no_match"
+    },
+    {
+      "id": "Q030",
+      "query": "Supply a distributed machine learning accelerator with tensor processing hardware and compiler runtime.",
+      "domain": "computing_hardware",
+      "expected_standards": [],
+      "acceptable_graph_standards": [],
+      "expected_decision": "INSUFFICIENT_EVIDENCE",
+      "test_type": "no_match"
+    }
+  ]
+}

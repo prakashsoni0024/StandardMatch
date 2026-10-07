@@ -1,0 +1,64 @@
+
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* =========================================
+   StandardMatch Custom Cursor
+   ========================================= */
+
+@media (pointer: fine) {
+  html,
+  body {
+    cursor: url("/cursors/cursor.svg") 5 4, auto;
+  }
+
+  /* Interactive elements */
+  a,
+  button,
+  [role="button"],
+  input[type="submit"],
+  input[type="button"] {
+    cursor: url("/cursors/cursor-hover.svg") 5 4, pointer;
+  }
+
+  /* Click state */
+  a:active,
+  button:active,
+  [role="button"]:active,
+  input[type="submit"]:active,
+  input[type="button"]:active {
+    cursor: url("/cursors/cursor-click.svg") 5 4, pointer;
+  }
+
+  /* Text fields */
+  input:not([type="button"]):not([type="submit"]):not([type="checkbox"]):not([type="radio"]),
+  textarea,
+  [contenteditable="true"] {
+    cursor: url("/cursors/cursor-text.svg") 12 16, text;
+  }
+}

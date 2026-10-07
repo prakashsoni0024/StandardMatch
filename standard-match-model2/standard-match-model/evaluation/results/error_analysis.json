@@ -1,0 +1,127 @@
+{
+  "error_cases": [
+    {
+      "id": "Q004",
+      "query": "Supply steel tubes suitable for water service together with compatible fittings as specified for the project.",
+      "expected_standards": [
+        "IS 1239 (Pt 1):2004"
+      ],
+      "predicted_standards": [
+        "IS 1239 (Part 1):2004",
+        "IS 10500:2012",
+        "IS 800:2007"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "likely_failure_category": "WRONG_STANDARD"
+    },
+    {
+      "id": "Q005",
+      "query": "The procurement requires steel pipes and tubular fittings for conveying water in the installation.",
+      "expected_standards": [
+        "IS 1239 (Pt 1):2004"
+      ],
+      "predicted_standards": [
+        "IS 1239 (Part 1):2004",
+        "IS 800:2007",
+        "IS 456:2000"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "likely_failure_category": "WRONG_STANDARD"
+    },
+    {
+      "id": "Q006",
+      "query": "Provide compliant steel tubes for plumbing work, including the required fittings and dimensional quality.",
+      "expected_standards": [
+        "IS 1239 (Pt 1):2004"
+      ],
+      "predicted_standards": [
+        "IS 1239 (Part 1):2004",
+        "IS 800:2007",
+        "IS 1786:2008"
+      ],
+      "expected_decision": "HIGH_CONFIDENCE",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "likely_failure_category": "WRONG_STANDARD"
+    },
+    {
+      "id": "Q025",
+      "query": "Good quality construction materials shall be used for the project.",
+      "expected_standards": [],
+      "predicted_standards": [
+        "IS 800:2007",
+        "IS 456:2000",
+        "IS 1786:2008"
+      ],
+      "expected_decision": "REVIEW_RECOMMENDED",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "likely_failure_category": "WRONG_STANDARD"
+    },
+    {
+      "id": "Q026",
+      "query": "Suitable water system materials shall be provided as required.",
+      "expected_standards": [],
+      "predicted_standards": [
+        "IS 10500:2012",
+        "IS 456:2000",
+        "IS 1239 (Part 1):2004"
+      ],
+      "expected_decision": "REVIEW_RECOMMENDED",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "likely_failure_category": "WRONG_STANDARD"
+    },
+    {
+      "id": "Q027",
+      "query": "High quality electrical equipment is required for the installation.",
+      "expected_standards": [],
+      "predicted_standards": [
+        "IS 302-1:2008",
+        "IS 1786:2008",
+        "IS 800:2007"
+      ],
+      "expected_decision": "REVIEW_RECOMMENDED",
+      "actual_decision": "HIGH_CONFIDENCE",
+      "likely_failure_category": "WRONG_STANDARD"
+    },
+    {
+      "id": "Q028",
+      "query": "Quantum computing processor telemetry firmware shall support cryogenic qubit control.",
+      "expected_standards": [],
+      "predicted_standards": [
+        "IS 1786:2008",
+        "IS 302-1:2008",
+        "IS 15658:2006"
+      ],
+      "expected_decision": "INSUFFICIENT_EVIDENCE",
+      "actual_decision": "REVIEW_RECOMMENDED",
+      "likely_failure_category": "WRONG_STANDARD"
+    },
+    {
+      "id": "Q029",
+      "query": "The procurement requires satellite navigation software for autonomous spacecraft orbital correction.",
+      "expected_standards": [],
+      "predicted_standards": [
+        "IS 800:2007",
+        "IS 15658:2006",
+        "IS 302-1:2008"
+      ],
+      "expected_decision": "INSUFFICIENT_EVIDENCE",
+      "actual_decision": "REVIEW_RECOMMENDED",
+      "likely_failure_category": "WRONG_STANDARD"
+    },
+    {
+      "id": "Q030",
+      "query": "Supply a distributed machine learning accelerator with tensor processing hardware and compiler runtime.",
+      "expected_standards": [],
+      "predicted_standards": [
+        "IS 10500:2012",
+        "IS 383:2016",
+        "IS 456:2000"
+      ],
+      "expected_decision": "INSUFFICIENT_EVIDENCE",
+      "actual_decision": "REVIEW_RECOMMENDED",
+      "likely_failure_category": "WRONG_STANDARD"
+    }
+  ]
+}
